@@ -24,11 +24,11 @@ if (totalVowels > 1) {
 } else if (totalVowels === 1) {
   console.log("Your word has " + totalVowels + " vowel");
 } else {
-  console.log("Your word has no vowel");
+  console.log("Your word has no vowels");
 }
 
-//My original solution after Chat gpt told me 
-// that I could use the let char method 
+/*//My original solution after Chat gpt told me 
+ //that I could use the let char method 
 
 const vowels = ['a', 'e', 'i', 'o', 'u'];
 
@@ -66,3 +66,4 @@ function count_vowels(str) {
 console.log(count_vowels("Celebration")); // 5
 console.log(count_vowels("Palm")); // 1
 console.log(count_vowels("Prediction")); // 4
+*/
